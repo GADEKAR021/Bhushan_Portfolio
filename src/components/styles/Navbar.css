@@ -13,20 +13,22 @@
   z-index: 9999;
 }
 .header ul {
-  font-size: 12px;
+  font-size: 11px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
   list-style: none;
-  column-gap: 40px;
-  row-gap: 8px;
-  align-items: end;
+  column-gap: 14px;
+  row-gap: 6px;
+  align-items: center;
+  justify-content: flex-end;
 }
 .header ul li {
   margin-left: 0px;
-  letter-spacing: 1px;
-  color: #ccc;
+  letter-spacing: 0.8px;
+  color: #eae5ec;
   font-weight: 600;
   cursor: pointer;
 }
